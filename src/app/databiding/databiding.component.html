@@ -1,0 +1,6 @@
+<div class="container">
+    <h1>Hello DataBiding</h1>
+    <input type="text" class="form-control" [(ngModel)]="userName">
+    <p>Username is: {{ userName }}</p>
+    <button class="btn btn-primary" [disabled]="checkFunc()" (click)="resetUser()">Reset user</button>
+</div>
