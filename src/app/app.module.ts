@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { DatabidingComponent } from './databiding/databiding.component';
+import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -11,6 +12,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     ServerComponent,
     ServersComponent,
+    TooglebuttonComponent,
     DatabidingComponent
   ],
   imports: [

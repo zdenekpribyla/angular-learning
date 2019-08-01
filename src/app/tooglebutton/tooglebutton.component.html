@@ -1,0 +1,11 @@
+<div class="container">
+    <button class="btn btn-primary" (click)="toogleLogs()">Display detail</button>
+    
+    <p *ngIf="showSecret">This is secret = lamp</p>
+    
+    <div 
+    *ngFor="let logItem of logs" 
+    [ngStyle]="{backgroundColor: getBackground()}" 
+    [ngClass]="{font : log >= 5}">{{ log }}
+</div>
+</div>
